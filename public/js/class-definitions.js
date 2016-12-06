@@ -131,6 +131,14 @@ let domains = {
  *   Konqueror  => "konqueror.org"
  *
  */
+ let browsers = {
+  Chromium: "google.com",
+  Safari: "apple.com",
+  Opera: "opera.com",
+  Firefox: "mozilla.org",
+  Sleipnir: "fenrir-inc.com",
+  Konqueror: "konqueror.org"
+ };
 
 
 /* Step 13
@@ -149,7 +157,18 @@ let domains = {
  *  isDouble  => true
  *
  */
-
+let rainbow = {
+  colors: {
+                   red:       "#F0280A",
+                   orange:    "#FF8800",
+                   yellow:    "#FFDD00",
+                   green:     "#51AB0C",
+                   blue:      "#1593ED",
+                   indigo:    "#5215ED",
+                   violet:    "#A915ED"
+  },
+  isDouble: true
+};
 
 /* Step 14
  *
@@ -164,7 +183,7 @@ let domains = {
  * "Bieber Linux"
  *
  */
-
+let linuxFlavors = ["Gentoo", "Fedora", "Debian", "Slackware", "Red Hat", "Bieber Linux"];
 
 /* Step 15
  *
