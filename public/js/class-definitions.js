@@ -21,7 +21,7 @@ let videogame_system = "Atari";
  * and assign the value of sahara_animal to "The Addax"
  *
  */
-
+let sahara_animal = "The Addax";
 
 /* Step 4
  *
@@ -30,7 +30,7 @@ let videogame_system = "Atari";
  * each planet in our solar system, in order of distance from the sun
  * Capitalize the names.
  */
-
+let planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter","Saturn", "Uranus", "Neptune"];
 
 /* Step 5
  *
@@ -39,7 +39,7 @@ let videogame_system = "Atari";
  * each galilean moon of Jupiter
  *
  */
-
+let galilean_moons = ['io', 'europa', 'ganymede', 'callisto'];
 
 /* Step 6 φ
  *
@@ -47,7 +47,7 @@ let videogame_system = "Atari";
  * and assign the value of golden_ratio to 1.61803398874
  *
  */
-
+let golden_ratio = 1.61803398874;
 
 /* Step 7
  *
@@ -55,7 +55,7 @@ let videogame_system = "Atari";
  * and assign the value of earths_water_composition to 0.71
  *
  */
-
+let earths_water_composition = 0.71;
 
 /* Step 8
  *
@@ -63,7 +63,7 @@ let videogame_system = "Atari";
  * and assign the value of club_name to "Fight Club"
  *
  */
-
+let club_name = "Fight Club";
 
 /* Step 9
  *
@@ -74,7 +74,11 @@ let videogame_system = "Atari";
  *   male    => "male"
  *   unknown => undefined
  */
-
+let gender = {
+  female: "female",
+  male: "male",
+  unknown: undefined
+};
 
 /* Step 10
  *
@@ -88,7 +92,12 @@ let videogame_system = "Atari";
  *   gender  => gender.female
  *
  */
-
+let princess_leia = {
+  name: "Leia Organa",
+  money: 890,
+  age: 20,
+  gender: gender.female
+};
 
 /* Step 11
  *
@@ -101,7 +110,13 @@ let videogame_system = "Atari";
  *   jsonformatter.curiousconcept.com => "104.28.5.70"
  *
  */
+let domains = {
 
+  "ycombinator.com": "198.41.190.47",
+  "laughingsquid.com": "162.159.247.97",
+  "slumlordhosting.com": "198.61.179.126",
+  "jsonformatter.curiousconcept.com": "104.28.5.70"
+};
 
 /* Step 12
  *
